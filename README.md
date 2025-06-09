@@ -8,7 +8,7 @@ This project demonstrates essential software engineering principles such as:
 - JSON serialization
 - Command-line interaction
   
-# Features
+## Features
 •	Add new contacts (name, number, email)
 •	Prevent duplicate entries
 •	Display all saved contacts
@@ -18,7 +18,7 @@ This project demonstrates essential software engineering principles such as:
 •	 Load contacts from a JSON file (if provided)
 
 
-# How to Use
+## How to Use
 1. Clone the repo:
 git clone https://github.com/maryamkhosravii/contactmanager.git
 
@@ -32,7 +32,7 @@ cm.delete("Alice")
 cm.backup()
 
 
-# Example Output
+## Example Output
 Contact Alice has been added.
 Contact List:
 Name: Alice | Number: 09121234567 | Email: alice@example.com
@@ -42,14 +42,14 @@ Contact Alice has been deleted.
 Backup Done.
 
 
-# Ideas for Future Improvements
+## Ideas for Future Improvements
 •	 CLI interface with argparse
 •	 Web interface using Flask or FastAPI
 •	 Save contacts to SQLite instead of JSON
 •	 Unit testing with pytest
 
 
-# Author
+## Author
 Made with ❤️ by Maryam Khosravi
 GitHub: https://github.com/maryamkhosravii
 
